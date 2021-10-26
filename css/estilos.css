@@ -19,9 +19,6 @@ header {
     align-items: center;
 }
 
-.logo {
-
-}
 
 .tituloSubtitulo {
    color: whitesmoke;
@@ -166,3 +163,17 @@ footer {
     width: 80%;
     background-color: tomato;
 }
+
+/* ESTILOS '''HOVER'''*/
+
+.navegacion:hover {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    padding: 10px;
+ 
+    border: 1px solid #ffffff;
+    text-transform: uppercase;
+    border-radius: 20px;
+ }
+ 
