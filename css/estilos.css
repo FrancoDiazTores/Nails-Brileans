@@ -5,8 +5,8 @@
 
 body {
     background-image: url("../imagenes/Fondo.jpg");
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
 header {
@@ -19,8 +19,12 @@ header {
     align-items: center;
 }
 
+.logo {
+    padding: 4px;
+}
 
 .tituloSubtitulo {
+    font-family: 'Zen Antique Soft';
    color: whitesmoke;
 }
 
@@ -36,7 +40,7 @@ header {
 }
 
 main {
-    background-color: tomato;
+    background-color: whitesmoke;
 }
 
 footer {
@@ -50,7 +54,7 @@ footer {
 }
 
 .redesSociales {
-    padding-top: 16px;
+    padding-top: 24px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -109,7 +113,6 @@ footer {
 .divCursos1 {
     width: 60%;
     padding: 10px;
-
 }
 
 .titulosCursos {
@@ -127,42 +130,52 @@ footer {
     justify-content: space-around;
     padding-top: 24px;
     padding-bottom: 24px;
+
+}
+
+.divCursos2 {
+    background-color: #96e6e1;
+    padding: 16px;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
 }
 
 /* ESTILOS '''DIPLOMAS'''*/
 .mainDiplomas {
+    padding: 32px;
     background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
 }
 
 .titulosDiplomas {
-    background-color: #96e6e1;
-    color: whitesmoke;
+    background-color: whitesmoke;
+    color: #96e6e1;
     font-size: 16px;
-
     border: 1px solid whitesmoke;
     border-radius: 20px;
     padding: 5px;
 }
 
 .sectionDiplomas {
-    background-color: violet;
-    padding-top: 24px;
-    padding-bottom: 24px;
-
+    background-color: #96e6e1;
+    padding: 16px;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
 }
 
-.divDiplomas1 {
+.diploma1 {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    width: 80%;
-    background-color: yellow;
+    padding: 2%;
 }
 
-.imagenesDiplomas {
-    width: 80%;
-    background-color: tomato;
+.diplomas {
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
+
 
 /* ESTILOS '''HOVER'''*/
 
@@ -175,5 +188,10 @@ footer {
     border: 1px solid #ffffff;
     text-transform: uppercase;
     border-radius: 20px;
+    transition: 0.15s;
  }
- 
+
+ .efectoRedesSociales:hover {
+    width: 105px;
+    transition: 0.5s;
+ }
