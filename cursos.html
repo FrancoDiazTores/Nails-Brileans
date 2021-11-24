@@ -71,18 +71,75 @@
                             border-radius: 20px;
                             padding: 5px;">Algunos cursos que dí!</h2>
 
-                <div>
-                    <img src="imagenes/Cursos1.jpg" width="300" alt="">
-                    <img src="imagenes/Cursos2.jpg" width="300" alt="">
-                </div>
-                <div>
-                    <img src="imagenes/Cursos3.jpg" width="300" alt="">
-                    <img src="imagenes/Cursos4.jpg" width="300" alt="">
-                </div>
-                <div>
-                    <img src="imagenes/Cursos5.jpg" width="300" alt="">
-                    <img src="imagenes/Cursos6.jpg" width="300" alt="">
-                </div>
+                <section class="container galeria-cursos">
+                    <div id="carouselExampleControls" class="carousel slide col-12 col-md-6" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="imagenes/Cursos1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imagenes/Cursos2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imagenes/Cursos7.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imagenes/Cursos8.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imagenes/Cursos9.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                       <span class="visually-hidden">Next</span>
+                      </button>
+                     </div>
+                </section>
+                
+                <section class="container galeria-cursos">
+                    <div id="carouselExampleInterval" class="carousel slide col-12 col-md-6" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="imagenes/Cursos3.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item" data-bs-interval="2000">
+                            <img src="imagenes/Cursos4.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item" data-bs-interval="2000">
+                            <img src="imagenes/Cursos5.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="imagenes/Cursos6.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="imagenes/Cursos10.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="imagenes/Cursos11.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="imagenes/Cursos12.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="imagenes/Cursos13.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </section>
+
             </div>  
         </section>
     </main>
@@ -111,5 +168,7 @@
         <h6>Calle 472, N°279 Barrio Abel Amaya</h6>
         </div>
     </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

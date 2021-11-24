@@ -125,12 +125,13 @@ footer {
     padding: 5px;
 }
 
-.sectionCursos2 {
+.sectionCursos2, .galeria-cursos {
     display: flex;
     justify-content: space-around;
-    padding-top: 24px;
-    padding-bottom: 24px;
-
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 .divCursos2 {
