@@ -28,6 +28,11 @@ header {
    color: whitesmoke;
 }
 
+.tituloSubtitulo1 {
+    display: flex;
+    align-items: center;
+}
+
 .navegacion {
    text-decoration: none;
    color: whitesmoke;
@@ -38,6 +43,8 @@ header {
    text-transform: uppercase;
    border-radius: 20px;
 }
+
+.sectionIndex {display: flex;}
 
 main {
     background-color: whitesmoke;
@@ -58,6 +65,8 @@ footer {
     display: flex;
     justify-content: space-evenly;
 }
+
+.direccionFooter {color: whitesmoke;}
 
 /* ESTILOS '''INICIO'''*/
 .mainInicio {
@@ -195,4 +204,48 @@ footer {
  .efectoRedesSociales:hover {
     width: 105px;
     transition: 0.5s;
+ }
+
+ @media (max-width: 768px) {
+     /* MEDIAQUERRYS ''HEADER''*/
+     .header {
+        border: 2px solid whitesmoke;
+        text-transform: uppercase;
+        border-radius: 10px;
+     }
+
+     .logo {width: 80px;}
+    
+     .titulo {font-size: 20px; padding-top: 10px;}
+     .subtitulo {font-size: 15px;}
+
+     .navegacion {
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 11px;
+        padding: 3px;
+     
+        border: 2px solid whitesmoke;
+        text-transform: uppercase;
+        border-radius: 10px;
+        }
+
+     .tituloSubtitulo1 {flex-direction: column;}
+     .cabecera {padding-bottom: 5px;}
+
+     /*MEDIAQUERRYS ''INDEX''*/
+     .imagenesIndex {width: 180px;}
+
+     .sectionIndex {display: flex; flex-direction: column-reverse;}
+
+     .googleMaps {width: 330px;}
+
+     /*MEDIAQUERRYS ''TRABAJOS''*/
+     .mainTrabajos {flex-direction: column; align-items: center; padding-top: 20px;}
+
+     /*MEDIAQUERRYS ''CURSOS''*/
+     .divCursos1 {width: max-content; padding-top: 15px;}
+
+     /*MEDIAQUERRIS ''DIPLOMAS''*/
+     .diplomas {flex-direction: column; padding-top: 30px;}
  }
