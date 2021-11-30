@@ -4,7 +4,7 @@
 } 
 
 body {
-    background-image: url("../imagenes/Fondo.jpg");
+    background-image: url("../imagenes/backgroundMarmol.jpg");
     padding-left: 7%;
     padding-right: 7%;
 }
@@ -66,7 +66,22 @@ footer {
     justify-content: space-evenly;
 }
 
-.direccionFooter {color: whitesmoke;}
+.direccionFooterDiv {
+    background-color: #96e6e1;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.direccionFooter {
+    color: whitesmoke;
+    font-size: 13px;
+    padding: 3px;
+
+    border: 1px solid whitesmoke;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
 
 /* ESTILOS '''INICIO'''*/
 .mainInicio {
@@ -206,8 +221,10 @@ footer {
     transition: 0.5s;
  }
 
+
+                                            /* MEDIA QUERYS */
  @media (max-width: 768px) {
-     /* MEDIAQUERRYS ''HEADER''*/
+     /* MEDIAQUERY ''HEADER''*/
      .header {
         border: 2px solid whitesmoke;
         text-transform: uppercase;
@@ -216,7 +233,7 @@ footer {
 
      .logo {width: 80px;}
     
-     .titulo {font-size: 20px; padding-top: 10px;}
+     .titulo {font-size: 20px;}
      .subtitulo {font-size: 15px;}
 
      .navegacion {
@@ -231,21 +248,32 @@ footer {
         }
 
      .tituloSubtitulo1 {flex-direction: column;}
-     .cabecera {padding-bottom: 5px;}
+     .cabecera {padding-bottom: 10px; padding-top: 10px;}
 
-     /*MEDIAQUERRYS ''INDEX''*/
-     .imagenesIndex {width: 180px;}
+     /*MEDIAQUERY ''FOOTER''*/
+     .direccionFooterDiv {
+         flex-direction: column;
+     }
+
+     .direccionFooter {
+         font-size: 11px;
+         display: flex;
+         justify-content: center;
+     }
+
+     /*MEDIAQUERY ''INDEX''*/
+     .imagenesIndex {width: 165px;}
 
      .sectionIndex {display: flex; flex-direction: column-reverse;}
 
      .googleMaps {width: 330px;}
 
-     /*MEDIAQUERRYS ''TRABAJOS''*/
+     /*MEDIAQUERY ''TRABAJOS''*/
      .mainTrabajos {flex-direction: column; align-items: center; padding-top: 20px;}
 
-     /*MEDIAQUERRYS ''CURSOS''*/
+     /*MEDIAQUERY ''CURSOS''*/
      .divCursos1 {width: max-content; padding-top: 15px;}
 
-     /*MEDIAQUERRIS ''DIPLOMAS''*/
+     /*MEDIAQUERY ''DIPLOMAS''*/
      .diplomas {flex-direction: column; padding-top: 30px;}
  }
