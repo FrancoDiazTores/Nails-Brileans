@@ -9,6 +9,9 @@ body {
     padding-right: 7%;
 }
 
+
+/*ESTILOS '''HEADER'''*/
+
 header {
     background-color: #96e6e1;
 }
@@ -44,11 +47,15 @@ header {
    border-radius: 20px;
 }
 
-.sectionIndex {display: flex;}
+
+/*ESTILOS '''MAIN'''*/
 
 main {
     background-color: whitesmoke;
 }
+
+
+/*ESTILOS '''FOOTER'''*/
 
 footer {
     background-color: #96e6e1;
@@ -75,13 +82,14 @@ footer {
 
 .direccionFooter {
     color: whitesmoke;
-    font-size: 13px;
+    font-size: 11px;
     padding: 3px;
 
     border: 1px solid whitesmoke;
     text-transform: uppercase;
     border-radius: 20px;
 }
+
 
 /* ESTILOS '''INICIO'''*/
 .mainInicio {
@@ -100,6 +108,8 @@ footer {
     padding-top: 16px;
     padding-bottom: 16px;
 }
+
+.sectionIndex {display: flex;}
 
 .infPers {
     background-color: #96e6e1;
@@ -208,7 +218,7 @@ footer {
     text-decoration: none;
     color: black;
     font-size: 14px;
-    padding: 10px;
+    padding: 7px;
  
     border: 1px solid #ffffff;
     text-transform: uppercase;
@@ -239,13 +249,21 @@ footer {
      .navegacion {
         text-decoration: none;
         color: whitesmoke;
-        font-size: 11px;
+        font-size: 10px;
         padding: 3px;
      
         border: 2px solid whitesmoke;
         text-transform: uppercase;
         border-radius: 10px;
         }
+
+     .navegacion:hover {
+        font-size: 12px;
+        padding: 5px;
+
+        border-radius: 20px;
+        transition: 0.10s;
+     }
 
      .tituloSubtitulo1 {flex-direction: column;}
      .cabecera {padding-bottom: 10px; padding-top: 10px;}
@@ -256,7 +274,7 @@ footer {
      }
 
      .direccionFooter {
-         font-size: 11px;
+         font-size: 9.5px;
          display: flex;
          justify-content: center;
      }
